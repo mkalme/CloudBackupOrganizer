@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudBackupOrganizer", "CloudBackupOrganizer\CloudBackupOrganizer.csproj", "{665A77A8-6FA8-4446-913F-EDD6A4E93F73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudBackupOrganizerGUI", "CloudBackupOrganizerGUI\CloudBackupOrganizerGUI.csproj", "{42349BD5-7351-4110-9951-D5651CF62FBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recovery", "Recovery", "{0FF86CC6-3BA6-4F98-82E3-ACA387C5D4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBackupOrganizerRecovery", "CloudBackupOrganizerRecovery\CloudBackupOrganizerRecovery.csproj", "{A868CF7F-8472-4A92-8D49-DE0FB35F8283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBackupOrganizerRecoveryGUI", "CloudBackupOrganizerRecoveryGUI\CloudBackupOrganizerRecoveryGUI.csproj", "{1914EDDD-8607-4787-827C-4D2494204BA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Debug|x64.Build.0 = Debug|Any CPU
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Release|x64.ActiveCfg = Release|x64
+		{665A77A8-6FA8-4446-913F-EDD6A4E93F73}.Release|x64.Build.0 = Release|x64
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Debug|x64.Build.0 = Debug|Any CPU
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Release|x64.ActiveCfg = Release|x64
+		{42349BD5-7351-4110-9951-D5651CF62FBE}.Release|x64.Build.0 = Release|x64
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Debug|x64.Build.0 = Debug|Any CPU
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Release|x64.ActiveCfg = Release|x64
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283}.Release|x64.Build.0 = Release|x64
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Debug|x64.Build.0 = Debug|Any CPU
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Release|x64.ActiveCfg = Release|x64
+		{1914EDDD-8607-4787-827C-4D2494204BA5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A868CF7F-8472-4A92-8D49-DE0FB35F8283} = {0FF86CC6-3BA6-4F98-82E3-ACA387C5D4FE}
+		{1914EDDD-8607-4787-827C-4D2494204BA5} = {0FF86CC6-3BA6-4F98-82E3-ACA387C5D4FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D643D127-ECC9-4A17-966E-5D0319C45013}
+	EndGlobalSection
+EndGlobal
